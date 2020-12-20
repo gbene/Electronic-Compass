@@ -12,7 +12,7 @@ Source location: [https://ohwr.org/cern_ohl_s_v2.txt](https://ohwr.org/cern_ohl_
 This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. 
 Please see the CERN-OHL-S v2 for applicable conditions.
 
-Source location: [https://github.com/gbene](https://github.com/gbene)
+Source location: [https://github.com/gbene/Electronic-Compass](https://github.com/gbene/Electronic-Compass)
 
 As per CERN-OHL-S v2 section 4, should You produce hardware based
 on this source, You must where practicable maintain the Source Location
