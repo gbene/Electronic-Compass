@@ -117,10 +117,6 @@ Connection ~ 4500 4000
 Wire Wire Line
 	4500 4000 4500 4550
 Wire Wire Line
-	6800 3900 6800 3700
-Wire Wire Line
-	6800 3700 8050 3700
-Wire Wire Line
 	5650 2050 5650 2300
 Wire Wire Line
 	6800 3200 6650 3200
@@ -189,21 +185,19 @@ Wire Wire Line
 Wire Wire Line
 	6650 3050 8050 3050
 Connection ~ 8050 3050
-Wire Wire Line
-	8050 3050 8050 3700
 Text Label 7350 2050 0    50   ~ 0
 VCC
 Text Label 8050 2850 1    50   ~ 0
 VCC
 Text Label 7600 3050 0    50   ~ 0
 VCC
-Text Label 7700 3700 0    50   ~ 0
+Text Label 8050 3700 1    50   ~ 0
 VCC
 Text Label 6350 2900 0    50   ~ 0
 GND
 Wire Wire Line
 	6050 4000 6800 4000
-Text Label 6300 3950 0    50   ~ 0
+Text Label 6550 3900 0    50   ~ 0
 GND
 Text Label 6600 3500 0    50   ~ 0
 SDA
@@ -215,12 +209,7 @@ Wire Wire Line
 	6300 4550 5450 4550
 Connection ~ 5450 4550
 Wire Wire Line
-	6300 3300 6300 4300
-Wire Wire Line
-	6800 4300 6300 4300
-Connection ~ 6300 4300
-Wire Wire Line
-	6300 4300 6300 4550
+	6300 3300 6300 3900
 Text Label 6550 4000 0    50   ~ 0
 A2
 Text Label 6550 4100 0    50   ~ 0
@@ -267,4 +256,15 @@ F 3 "~" H 2950 4000 50  0001 C CNN
 	1    2950 3800
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	6800 3900 6300 3900
+Connection ~ 6300 3900
+Wire Wire Line
+	6300 3900 6300 4550
+Wire Wire Line
+	6800 4300 6800 4450
+Wire Wire Line
+	6800 4450 8050 4450
+Wire Wire Line
+	8050 3050 8050 4450
 $EndSCHEMATC
