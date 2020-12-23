@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GY-271_QMC5883L
+D QMC5883L three axis magnetometer breakout board
+$ENDCMP
+#
+$CMP GY-61_ADXL335
+D ADXL335 3 axis accelerometer breakoutboard
+$ENDCMP
+#
+$CMP OLED_128x32
+D 128x32 px monochrome oled screen
+$ENDCMP
+#
+#End Doc Library
